@@ -1,5 +1,7 @@
 # StartingDSAJavascript
 
+# Big O
+Big O notation is a mathematical notation that describes the limiting behavior of a function when the argument tends towards a particular value or infinity.
 
 # Time Complexcity
 Time complexity is defined as the amount of time taken by an algorithm to run, as a function of the length of the input.
@@ -14,4 +16,8 @@ Space complexity refers to the total amount of memory space used by an algorithm
 
 # What is extra space complexity ?
 Auxiliary Space is the extra space or temporary space used by an algorithm. Space Complexity of an algorithm is the total space taken by the algorithm with respect to the input size. Space complexity includes both Auxiliary space and space used by input.
+
+# loop-order 
+ordr of the loop * order of whatever is happning inside the loop.
+
 
