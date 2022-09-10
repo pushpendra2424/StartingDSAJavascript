@@ -1,0 +1,25 @@
+{
+  "name": "startingdsajavascript",
+  "version": "1.0.0",
+  "description": "Big O notation is a mathematical notation that describes the limiting behavior of a function when the argument tends towards a particular value or infinity.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+   
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pushpendrakumar-8287346767/StartingDSAJavascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pushpendrakumar-8287346767/StartingDSAJavascript/issues"
+  },
+  "homepage": "https://github.com/pushpendrakumar-8287346767/StartingDSAJavascript#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}

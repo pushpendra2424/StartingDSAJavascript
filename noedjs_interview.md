@@ -2,7 +2,7 @@
 Concurrency means that a program is able to run more than one task at a time — this is not to be confused with parallelism. During concurrency, different tasks with differing goals of the program can be performed at the same time, while in parallelism, different parts of the program execute one task.
 # How does NodeJS handle concurrent tasks?
 Multiple clients make multiple requests to the NodeJS server. NodeJS receives these requests and places them into the EventQueue . NodeJS server has an internal component referred to as the EventLoop which is an infinite loop that receives requests and processes them.
-# Why NodeJs is not single threaded?
+# Why NodeJs is single threaded?
 NodeJs is not single threaded. The NodeJs event loop operates on a single thread yes, but the async blocking operations are delegated to separate worker threads. These threads notify the main thread when they are done processing.
 # What is package json?
 The package. json file is the heart of any Node project. It records important metadata about a project which is required before publishing to NPM, and also defines functional attributes of a project that npm uses to install dependencies, run scripts, and identify the entry point to our package.
